@@ -1,0 +1,12 @@
+# Messages:
+
+# Commands:
+command.open-vault: "&aOpening your vault"
+command.open-vault.usage: "&c/pv (vault number)"
+command.open-vault.op-usage: "&c/pv [player] (vault number)"
+command.permission: "&cYou do not have permission to run this command!"
+command.too-many-args: "&cYou entered too many arguments!"
+command.not-a-number: "&c%s is not a number!"
+command.offline-player: "&c%s is offline, but set VaultLoader doesn't support offline players"
+command.not-a-player: "&cCould not find a player with the name %s"
+# Errors:
