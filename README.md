@@ -1,0 +1,2 @@
+# BPVTranslations
+Translations for BetterPlayerVaults
