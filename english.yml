@@ -1,18 +1,28 @@
-messages:
-  # Messages:
+# No sections with values: EX:
+# command.vault: "Test"
+# command.vault.open: "Opened"
 
-  # Commands:
-  command.open-vault: "&aOpening your vault"
-  command.open-vault.usage: "&c/pv (vault number)"
+# Messages:
 
-  # Command Usage:
-  command.open-vault.op-usage: "&c/pv [player] (vault number)"
+# GUI Titles:
+title.vault: "Vault %s"
 
-  # Command Errors:
-  command.permission: "&cYou do not have permission to run this command!"
-  command.too-many-args: "&cYou entered too many arguments!"
-  command.not-a-number: "&c%s is not a number!"
-  command.offline-player: "&c%s is offline, but set VaultLoader doesn't support offline players"
-  command.not-a-player: "&cCould not find a player with the name %s"
+# Commands:
+command.vault.open: "&aOpening your vault"
+command.vault.open-other-vault: "&aOpening %s's vault"
+command.vault.not-enough: "&cYou only have %s vault(s)"
+command.vault.other-not-enough: "&c%s only has %s vault(s)"
+command.vault.usage: "&c/pv (vault number)"
 
-  # Errors:
+# Command Usage:
+command.open-vault.op-usage: "&c/pv [player] (vault number)"
+
+# Command Errors:
+command.not-a-player: "&cOnly players can run this command"
+command.permission: "&cYou do not have permission to run this command!"
+command.too-many-args: "&cYou entered too many arguments!"
+command.not-a-number: "&c%s is not a number!"
+command.offline-player: "&c%s is offline, but set VaultLoader doesn't support offline players"
+command.player-not-found: "&cCould not find a player with the name %s"
+
+# Errors:
