@@ -14,6 +14,9 @@ command.vault.not-enough: "&cYou only have %s vault(s)"
 command.vault.other-not-enough: "&c%s only has %s vault(s)"
 command.vault.usage: "&c/pv (vault number)"
 
+command.clear.usage: "&c/clearvault [player] (vaultnumber)"
+command.clear.success: "&aCleared vault!"
+
 # Command Usage:
 command.open-vault.op-usage: "&c/pv [player] (vault number)"
 
