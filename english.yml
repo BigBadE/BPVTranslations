@@ -1,24 +1,17 @@
-# No sections with values: EX:
-# command.vault: "Test"
-# command.vault.open: "Opened"
-
 # Messages:
-
-# GUI Titles:
-title.vault: "Vault %s"
-
-# Commands:
+command.clear.success: "&aCleared vault!"
 command.vault.open: "&aOpening your vault"
 command.vault.open-other-vault: "&aOpening %s's vault"
 command.vault.not-enough: "&cYou only have %s vault(s)"
 command.vault.other-not-enough: "&c%s only has %s vault(s)"
-command.vault.usage: "&c/pv (vault number)"
 
-command.clear.usage: "&c/clearvault [player] (vaultnumber)"
-command.clear.success: "&aCleared vault!"
+# GUI Titles:
+title.vault: "Vault %s"
 
 # Command Usage:
-command.open-vault.op-usage: "&c/pv [player] (vault number)"
+command.vault.usage: "&c/pv (vault number)"
+command.vault.op-usage: "&c/pv [player] (vault number)"
+command.clear.usage: "&c/clearvault [player] (vaultnumber)"
 
 # Command Errors:
 command.not-a-player: "&cOnly players can run this command"
